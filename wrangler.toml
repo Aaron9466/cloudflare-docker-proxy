@@ -18,6 +18,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 name = "cloudflare-docker-proxy"
 routes = [
     { pattern = "www.magicservice.icu", custom_domain = true }
+    { pattern = "magicservice.icu", custom_domain = true }
 ]
 # routes = [
 #   { pattern = "docker.libcuda.so", custom_domain = true },
