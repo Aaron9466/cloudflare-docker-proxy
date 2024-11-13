@@ -7,6 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
+  // my domain
   ["www.magicservice.icu"]: dockerHub
 };
 
