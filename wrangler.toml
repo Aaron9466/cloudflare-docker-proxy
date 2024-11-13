@@ -18,7 +18,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-    { pattern = "www.magicservice.icu", custom_domain = true }
+    { pattern = "www.magicservice.icu", custom_domain = true },
     { pattern = "magicservice.icu", custom_domain = true }
 ]
 # routes = [
